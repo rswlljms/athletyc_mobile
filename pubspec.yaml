@@ -1,0 +1,82 @@
+name: athletyc
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  readmore: ^2.2.0
+  dotted_border: ^2.0.0
+  image_picker: ^1.0.4
+  http: ^1.1.0
+  #uni_links: ^0.5.1
+
+  get: ^4.6.5
+  english_words: ^4.0.0
+  provider: ^6.1.2
+  mysql1: 0.20.0
+  shared_preferences: ^2.0.15 #for logging out
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.10
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/image/ath logo only.png"
+
+flutter_native_splash:
+  color: "#ffffff" # background color
+  image: assets/image/ath1.png
+  android: true
+  ios: true
+  fullscreen: true
+
+
+#Utility Packages
+http: ^1.1.0
+intl: ^0.18.1
+logger: ^2.0.1
+url_launcher: ^6.1.12
+# flutter_native_splash: ^2.3.2
+smooth_page_indicator: ^1.1.0
+carousel_slider: ^4.2.1
+
+flutter:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+  uses-material-design: true
+  assets:
+    - assets/image/ath1.png
+    - assets/image/
+    - assets/icon/
+    - assets/image/TeamSports/
+    - assets/image/WaterSports/
+    - assets/image/FitnessEquipments/
+    - assets/image/SportsApparel/
+    - assets/image/Biking/
+    - assets/image/CampingHiking/
+    - assets/image/TeamSports/ELITE ALL COURT 8P BASKETBALL/
+    - assets/image/WaterSports/Ambient_PFD/
+    - assets/image/SportsApparel/WBL BASIC ACTIVE TEE 05/
+    - assets/image/CampingHiking/Dolomite One Sleeping Bag/
+    - assets/image/Biking/DRT 1.2 Mountain Bike/
+    - assets/image/FitnessEquipments/20 kg Weight Training Dumbbell Kit/
