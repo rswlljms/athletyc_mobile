@@ -95,10 +95,6 @@ The app includes various assets:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contact
 
 For any inquiries about this student project, please contact any of the developers listed above.
