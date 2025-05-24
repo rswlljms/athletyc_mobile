@@ -99,4 +99,4 @@ The app includes various assets:
 
 For any inquiries about this student project, please contact any of the developers listed above.
 
-Project Link: [https://github.com/yourusername/athletyc_mobile]
+Project Link: [https://github.com/rswlljms/athletyc_mobile]
