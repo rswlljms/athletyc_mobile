@@ -162,9 +162,6 @@ Comprehensive user profile and order management:
     - Price
     - Status updates
 
-## Currency
-The app uses Philippine Peso (₱) as the default currency.
-
 ## Tech Stack
 
 - Flutter SDK ^3.6.0
