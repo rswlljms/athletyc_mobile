@@ -227,7 +227,6 @@ This project was developed by:
 - Valdellon, Christine Nicole P.
 - Vitaliz, Roswell James D.
 
-
 ## Contact
 
 For any inquiries about this project, please contact any of the developers listed above.
