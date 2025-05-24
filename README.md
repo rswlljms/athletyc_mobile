@@ -207,14 +207,48 @@ flutter run
 ## Project Structure
 
 ```
-lib/
-├── screens/         # All app screens
-│   ├── buyer/       # Buyer-specific screens
-│   └── sign_in/     # Authentication screens
-├── models/          # Data models
-├── utils/          # Utility functions
-└── main.dart       # App entry point
+athletyc_mobile/
+├── lib/                        # Main source code directory
+│   ├── main.dart              # Application entry point
+│   ├── screens/               # UI screens and pages
+│   │   ├── splash.dart        # Splash screen implementation
+│   │   ├── buyer/             # Buyer-specific screens
+│   │   │   ├── home/         # Home screen and related components
+│   │   │   ├── cart/         # Shopping cart screens
+│   │   │   ├── profile/      # User profile screens
+│   │   │   └── product/      # Product listing and details
+│   │   └── sign_in/          # Authentication screens
+│   ├── models/               # Data models
+│   │   ├── product.dart      # Product data model
+│   │   └── userprofile.dart  # User profile data model
+│   └── utils/               # Utility functions and constants
+│       └── config.dart      # Configuration and constants
+├── assets/                  # Static assets directory
+│   ├── image/              # Image assets
+│   │   ├── ath1.png       # App logo
+│   │   └── ...           # Other images
+│   └── fonts/             # Custom fonts (Poppins)
+├── android/               # Android-specific files
+├── ios/                  # iOS-specific files
+├── web/                  # Web platform files
+├── windows/              # Windows platform files
+├── linux/                # Linux platform files
+├── macos/                # macOS platform files
+└── pubspec.yaml          # Project dependencies and settings
 ```
+
+### Key Directories
+
+- **lib/**: Contains all the Dart source code for the application
+  - **screens/**: UI components organized by feature
+  - **models/**: Data structures and business logic
+  - **utils/**: Helper functions, constants, and configurations
+
+- **assets/**: Static resources used in the app
+  - **image/**: Image files including logos and icons
+  - **fonts/**: Custom typography files
+
+- **Platform-specific directories**: Native code and configurations for each supported platform
 
 ## Developers
 
@@ -223,7 +257,6 @@ This project was developed by:
 - Noguera, Fhammiell D.
 - Valdellon, Christine Nicole P.
 - Vitaliz, Roswell James D.
-
 
 ## Contact
 
